@@ -16,8 +16,13 @@
 				title: 'Hello'
 			}
 		},
-		onLoad() {
-
+		onLoad(e) {
+console.log(e);
+console.log('load');
+		},
+		onTabItemTap(e) {
+			console.log('item');
+			console.log(e);
 		},
 		methods: {
 
